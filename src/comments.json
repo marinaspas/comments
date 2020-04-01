@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "avatar": "http://placekitten.com/500/500",
+      "username": "Atticus",
+      "user_type": "author",
+      "time_ago": 2,
+      "text": "So what the German auto maker is likely to focus on today is the bigger picture. This will be the first time we see the Taycan free from any prototype bodywork.",
+      "replies_num": 21,
+      "upvotes_num": 123,
+      "downvotes_num": 0
+    },
+    {
+      "id": 2,
+      "avatar": "https://i.pravatar.cc/500",
+      "username": "Ginny",
+      "user_type": "author",
+      "time_ago": 10,
+      "text": "So what the German auto maker is likely to focus on today is the bigger picture. This will be the first time we see the Taycan free from any prototype bodywork.",
+      "replies_num": 50,
+      "upvotes_num": 200,
+      "downvotes_num": 0
+    }
+  ]
+}
