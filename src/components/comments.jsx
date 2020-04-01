@@ -2,14 +2,13 @@ import React, { Component } from "react";
 import avatar from "../images/sample_user.png";
 import caratUp from "../images/up-chevron.png";
 import caratDown from "../images/down-chevron.png";
-import comments from "../comments.json";
 
 class Comment extends Component {
   render() {
     return (
-      <div className="comment">
+      <>
         {this.props.comments.items.map(comment => (
-          <>
+          <div className="comment">
             <img src={comment.avatar} alt="a man smiling" className="avatar" />
             <div className="post">
               <ul className="post-info">
@@ -51,9 +50,9 @@ class Comment extends Component {
                 </li>
               </ul>
             </div>
-          </>
+          </div>
         ))}
-      </div>
+      </>
     );
   }
 }

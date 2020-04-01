@@ -17,10 +17,21 @@
       "username": "Ginny",
       "user_type": "author",
       "time_ago": 10,
-      "text": "So what the German auto maker is likely to focus on today is the bigger picture. This will be the first time we see the Taycan free from any prototype bodywork.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna magna, sodales eu sem et, rutrum volutpat elit. Integer eget fermentum justo. Quisque risus nibh, volutpat id nunc id, tristique vehicula mi.",
       "replies_num": 50,
       "upvotes_num": 200,
       "downvotes_num": 0
+    },
+    {
+      "id": 3,
+      "avatar": "https://www.stevensegallery.com/500/500",
+      "username": "Steven",
+      "user_type": "author",
+      "time_ago": 10,
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec urna magna, sodales eu sem et, rutrum volutpat elit. Integer eget fermentum justo. Quisque risus nibh, volutpat id nunc id, tristique vehicula mi.",
+      "replies_num": 5,
+      "upvotes_num": 40,
+      "downvotes_num": 3
     }
   ]
 }
