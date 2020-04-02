@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import avatar from "../images/sample_user.png";
 import caratUp from "../images/up-chevron.png";
 import caratDown from "../images/down-chevron.png";
+import CommentStats from "./commentStats";
 
 class Comment extends Component {
   render() {
@@ -28,26 +29,23 @@ class Comment extends Component {
               </ul>
               <p className="comment-txt">{comment.text}</p>
               <ul className="feedback-list">
-                <li className="grey-txt">
-                  <a className="icons">reply</a>
-                </li>
-                <li className="grey-txt">
-                  <a className="icons">
-                    <span>{comment.replies_num}</span> replies
-                  </a>
-                </li>
-                <li className="grey-txt">
-                  <a className="icons">
-                    <img src={caratUp} alt="carat up" className="carats" />
-                    <span> {comment.upvotes_num}</span>
-                  </a>
-                </li>
-                <li className="grey-txt">
-                  <a className="icons">
-                    <img src={caratDown} alt="carat down" className="carats" />
-                    <span> {comment.downvotes_num}</span>
-                  </a>
-                </li>
+                <CommentStats>
+                  <span>reply</span>
+                </CommentStats>
+
+                <CommentStats>
+                  <span>{comment.replies_num}</span> replies
+                </CommentStats>
+
+                <CommentStats>
+                  <img src={caratUp} alt="carat up" className="carats" />
+                  <span> {comment.upvotes_num}</span>
+                </CommentStats>
+
+                <CommentStats>
+                  <img src={caratDown} alt="carat down" className="carats" />
+                  <span> {comment.downvotes_num}</span>
+                </CommentStats>
               </ul>
             </div>
           </div>
