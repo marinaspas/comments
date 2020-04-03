@@ -33,7 +33,10 @@
   },
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^25.1.5",
+    "react-test-renderer": "^16.13.1"
+  },
   "author": "marina spas",
   "license": "ISC"
 }

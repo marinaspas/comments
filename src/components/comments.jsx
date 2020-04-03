@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import avatar from "../images/sample_user.png";
 import caratUp from "../images/up-chevron.png";
 import caratDown from "../images/down-chevron.png";
 import CommentStats from "./commentStats";
@@ -9,7 +8,7 @@ class Comment extends Component {
     return (
       <>
         {this.props.comments.items.map(comment => (
-          <div className="comment">
+          <div className="comment" key={comment.id}>
             <img src={comment.avatar} alt="a man smiling" className="avatar" />
             <div className="post">
               <ul className="post-info">
